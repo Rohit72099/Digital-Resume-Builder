@@ -119,8 +119,26 @@ class ResumeController extends Controller
         $skills = Skill::where('session_id', $session_id)->get();
 
         $view = 'resume.templates.' . $template;
-        $pdf = Pdf::loadView($view, compact('resume', 'education', 'experience', 'projects', 'skills'));
+        $pdf = Pdf::loadView($view, compact('resume', 'education', 'experience', 'projects', 'skills'))
+            ->setPaper('A4', 'portrait')
+            ->setOptions(['defaultFont' => 'sans-serif']);
         
-        return $pdf->download($resume->full_name . '_resume.pdf');
+        return $pdf->download($resume->full_name . '_' . $template . '_resume.pdf');
     }
+
+
+
+
+    public function previewTemplate($session_id, $template)
+{
+    $resume = Resume::where('session_id', $session_id)->first();
+    $education = Education::where('session_id', $session_id)->get();
+    $experience = Experience::where('session_id', $session_id)->get();
+    $projects = Project::where('session_id', $session_id)->get();
+    $skills = Skill::where('session_id', $session_id)->get();
+
+    $view = 'resume.templates.' . $template;
+    return view($view, compact('resume', 'education', 'experience', 'projects', 'skills'));
+}
+
 }
