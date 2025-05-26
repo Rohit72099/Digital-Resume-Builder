@@ -4,6 +4,18 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
+## ✨ Features
+
+- 🔒 No authentication required – build and download instantly
+- 🎨 Choose from **5 professional templates**
+- ➕ Add unlimited entries to experience, education, skills, etc.
+- 📄 Download resumes in **PDF format** using DomPDF
+- ⚡ Live preview of the resume as you type
+- 📱 Fully responsive design (Tailwind CSS)
+- 🌙 SoTheme support (modern and elegant)
+
+---
+
 A no-login-required resume builder that generates professional PDF resumes from SQL database.
 
 ![App Screenshot 1](public/rb1.png)
@@ -14,13 +26,13 @@ A no-login-required resume builder that generates professional PDF resumes from 
 ![App Screenshot 5](public/rb7.png)
 
 
-## ✨ Key Features
+<!-- ## ✨ Key Features
 
 - 🚀 **Instant resume creation** (no authentication)
 - 📑 **5 professional templates** with PDF download
 - 🛢️ **SQL database** (MySQL/MariaDB/PostgreSQL)
 - 📱 **Fully responsive** design
-- ➕ **Dynamic sections** (add unlimited entries)
+- ➕ **Dynamic sections** (add unlimited entries) -->
 
 ## 🛠️ Tech Stack
 
