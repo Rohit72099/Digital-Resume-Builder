@@ -1,4 +1,4 @@
-# 📄 SQL Resume Builder - Laravel
+# 📄 Digital Resume Builder - Laravel
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
@@ -6,12 +6,18 @@
 
 A no-login-required resume builder that generates professional PDF resumes from SQL database.
 
-![App Screenshot](public/screenshot.png) <!-- Replace with actual screenshot -->
+![App Screenshot 1](public/rb1.png)
+![App Screenshot 2](public/rb2.png)
+![App Screenshot 3](public/rb3.png)
+![App Screenshot 4](public/rb5.png)
+![App Screenshot 5](public/rb6.png)
+![App Screenshot 5](public/rb7.png)
+
 
 ## ✨ Key Features
 
 - 🚀 **Instant resume creation** (no authentication)
-- 📑 **4 professional templates** with PDF download
+- 📑 **5 professional templates** with PDF download
 - 🛢️ **SQL database** (MySQL/MariaDB/PostgreSQL)
 - 📱 **Fully responsive** design
 - ➕ **Dynamic sections** (add unlimited entries)
